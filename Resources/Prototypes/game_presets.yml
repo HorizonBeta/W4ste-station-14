@@ -83,6 +83,7 @@
   - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
+  - SpaceTrafficControlFriendlyEventScheduler
 
 - type: gamePreset
   id: Greenshift
@@ -119,6 +120,7 @@
     - MeteorSwarmScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
+    - SpaceTrafficControlFriendlyEventScheduler
 
 - type: gamePreset
   id: SecretGreenshift #For Admin Use: Runs Greenshift but shows "Secret" in lobby.
