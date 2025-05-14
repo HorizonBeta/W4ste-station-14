@@ -3,7 +3,7 @@
   name: job-name-clown
   description: job-description-clown
   playTimeTracker: JobClown
-  weight: -40
+  weight: -1
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
