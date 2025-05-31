@@ -162,6 +162,24 @@
   - BasicRoundstartVariation
 
 - type: gamePreset
+  id: SecretTraitor
+  alias:
+    - secrettraitor
+    - secrettator
+  name: secret-title
+  description: traitor-description
+  showInVote: false
+  rules:
+  - DummyNonAntagChance
+  - Traitor
+  - SubGamemodesRule
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler
+  - SpaceTrafficControlEventScheduler
+  - BasicRoundstartVariation
+  - SpaceTrafficControlFriendlyEventScheduler
+
+- type: gamePreset
   id: Deathmatch
   alias:
     - deathmatch
